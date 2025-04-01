@@ -50,9 +50,7 @@ abstract class Vehicle {
   }
 
   //-----------getter method-----------
-  int getSpeed() {
-    return _speed;
-  }
+  int getSpeed() => _speed; //encapsulation
 }
 
 //===================Car subclass===================
